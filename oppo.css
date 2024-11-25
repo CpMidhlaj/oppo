@@ -1,0 +1,76 @@
+.card-title img{
+ width: 120px;
+ height: auto;
+}
+.card-3 {
+    width: 360px;
+    height: auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid lightgrey;
+  }
+  .card-3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  .card-4 {
+    width: 360px;
+    height: auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid lightgrey;
+  }
+  .support-container {
+    max-width: 600px;
+    margin: 50px auto;
+  }
+  .support-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .support-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  .support-item:hover {
+    color: rgb(0, 123, 255);
+  }
+  .support-item .arrow {
+    font-size: 20px;
+    color: lightgrey;
+    transition: color 0.3s;
+  }
+  .support-item:hover .arrow {
+    color: rgb(0, 123, 255);
+  }
+  .footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+  }
+  .footer a {
+    color:  lightgrey;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    color: white;
+  }
+  .footer .social-icons a {
+    font-size: 20px;
+    margin-right: 15px;
+    
+  }
+  .footer .copy {
+    border-top: 1px solid #555;
+    padding-top: 15px;
+    margin-top: 15px;
+    font-size: 14px;
+  }
